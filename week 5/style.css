@@ -1,0 +1,51 @@
+body {
+font-family: arial; /*put font in "" when you link it */
+/*font-family: "roboto";*/
+font-size:2vw;
+font-weight:100;
+}
+
+p{
+  color:rgb(100,100,100);
+}
+h1{
+  border: solid rgb(100,100,200) 1px;
+}
+.grey{
+  color: rgb(100,100,200);
+}
+.background{
+  color: rgb(225);
+}
+span{
+  color: blue;
+  font-weight: bold;
+}
+  #sit{
+    font-family: cursive;
+  }
+  hr #dashed{
+    border:dashed rgb(225,225,0) 2px;
+  }
+  hr #double{
+    border:double rgb(225,225,0) 2px;
+  }
+  hr #groove{
+    border:groove rgb(225,225,0) 2px;
+  }
+  #two{
+    border: solid black 1px;
+    background-color: blue;
+  /*    padding: top right bottom left; */
+    padding: 30px 0px 30px 0px;
+      margin: 0px 30px 0px 30px;
+  }
+  section{
+    border: solid black 1px;
+  }
+  #hero{
+    width:100vw;
+    margin: 0px;
+    padding 0px;
+
+  }
