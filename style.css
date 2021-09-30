@@ -1,25 +1,28 @@
 body {
-font-family: arial; /*put font in "" when you link it */
+font-family: roboto; /*put font in "" when you link it */
 /*font-family: "roboto";*/
 font-size:2vw;
 font-weight:100;
 }
 
 h1{
-  color: purple;
+  color: #5D001E;
 }
 
 body{
   text-align: center;
-  background-color: rgb(185,186,189);
+  background-color: #E3E2DF;
 }
 
-
+h2{
+  color: #5D001E;
+}
 
 
 p{
-  color:rgb(100,100,100);
+  color:#EE4C7C;
 }
+
 
 
   #sit{
@@ -28,7 +31,7 @@ p{
 
   h4{
     border: solid black 1px;
-    background-color: lightgrey;
+    background-color: #E3AFBC;
   /*    padding: top right bottom left; */
     padding: 30px 0px 30px 0px;
       margin: 0px 30px 0px 30px;
