@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title> Quote Machine</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather"
+  </head>
+  <body>
+    <section>
+      <h1 id="qtext" >Welcome to quote machine, click the button to get a quote. </h1>
+      <button id="newquote">New Quote</button>
+      </section>
+
+      <script>
+const quotes = ["The best preperation for tomorrow is doing your best today.","Happiness is a direction, not a place.", "Live life to the fullest, and focus on the positive.","Life is 10% what happens to you and 90% how you react to it.","Set your goals high, and don't stop till you get there."];
+let quotecount = 0;
+document.getElementById("newquote").addEventListener("click", buttonClicked);
+function buttonClicked(){
+  console.log(quotes[quotecount]);
+  document.getElementById("qtext").innerHTML = quotes[quotecount];
+  if(quotecount>=6){
+    quotecount = 0;
+  }else{
+    quotecount++;
+  }
+}
+        </script>
+
+      </body>
+
+      </html>

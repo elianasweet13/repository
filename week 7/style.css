@@ -1,0 +1,27 @@
+section{
+  background-color: lightgrey;
+  margin: 30vh 20vw;
+  padding: 10vh 10vw;
+  border-radius: 8px;
+
+}
+button{
+  border-radius: 8px;
+  padding: 1vh 3vw;
+  float: right;
+  margin-top: 1vh;
+  color: #eBaead;
+  font-weight: bold;
+}
+
+button:hover{
+  border: #fff solid 1px;
+}
+button:active{
+  color: #c3c6c9;
+}
+
+h1{
+  color: #eBaead;
+  font-family: "EB Garamond"
+}
