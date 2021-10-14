@@ -18,7 +18,7 @@ document.getElementById("newquote").addEventListener("click", buttonClicked);
 function buttonClicked(){
   console.log(quotes[quotecount]);
   document.getElementById("qtext").innerHTML = quotes[quotecount];
-  if(quotecount>=5){
+  if(quotecount>= quotes.length-1){
     quotecount = 0;
   }else{
     quotecount++;
