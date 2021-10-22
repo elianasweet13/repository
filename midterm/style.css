@@ -1,0 +1,47 @@
+div{
+  background-color:#4D4D4D;
+}
+
+#weekly{
+  font-family: "Playfair + Display + SC"
+}
+
+.options{
+  flex-grow:1
+  width:inherit;
+  margin: 3vw;
+}
+
+img{
+  max-width: 30vw;
+  max-height: 30vh;
+  object-fit: cover;
+  object-position: 0px 0px 20px 0px:
+}
+button{
+  float:right;
+  padding: 10px 50px;
+  margin-right: 3vw;
+  background-color: #ADC2A9;
+
+
+
+}
+
+button:hover{
+  border:solid #FEF5ED 3px;
+
+}
+
+.label{
+  color: #99A799;
+  text-decoration: underline;
+
+}
+
+
+#self{
+  font-family: "Source Sans Pro"
+
+
+}
