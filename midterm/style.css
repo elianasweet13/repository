@@ -40,8 +40,24 @@ button:hover{
 }
 
 
-#self{
-  font-family: "Source Sans Pro"
+.self{
+  font-family: "Source Sans Pro";
+  border-radius: 10px;
+}
+
+.menu{
+  color: #D3E4CD;
+  display:none;
+text-align: left;
+font-family: "Source Serif Pro"
+}
+
+.floaty{
+  float:right;
+  text-align: center;
+}
 
 
+.shown{
+  display: block;
 }
