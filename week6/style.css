@@ -1,7 +1,30 @@
 body{
   padding: 0px;
   margin: 0px;
+  font-size: em;
+
+
 }
+
+
+@media screen and (min-width: 600px) {
+  .element {
+    /* Apply some styles */
+    display: grid;
+    grid-template-columns: 6% auto;
+    grid-template-rows: 10% 10% 10%;
+    grid-template-areas: "sidebar" "header"
+                          "sidebar" "footer"
+                          "sidebar" "body";
+  }
+
+
+@media screen and (min-width:699px){
+  body{
+    font-size:1rem;
+    color:white;
+    background-color: ;
+  }
 
 p{
   color: lightblue;
@@ -53,6 +76,7 @@ button{
   padding: 7px 20px;
   position:relative;
   left: 50vw;
+
 }
 
 button:active{
